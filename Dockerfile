@@ -9,4 +9,4 @@ RUN chown -R nginx:nginx /etc/nginx/conf.d/
 USER nginx
 
 # ENTRYPOINT ["./docker-entrypoint.sh"]
-CMD ["nginx", "-g", "daemon off;"]% 
+CMD ["nginx", "-g", "daemon off;"]
